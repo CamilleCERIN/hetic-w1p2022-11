@@ -1,50 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="reset.css" />
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script defer src="js/main.js"></script>
+    <title>CHANEL</title>
   </head>
   <body>
-    <header>
-      <body>
-        <nav role="navigation">
-          <div class="header1">
-            <!--  <div class="menu_burger">
-              <input type="checkbox" />
-
-              <span></span>
-              <span></span>
-              <span></span>
-
-              <ul class="menu">
-                <a href="#"><li>Accueil</li></a>
-                <hr />
-                <a href="#"><li>Notre Produit</li></a>
-                <hr />
-                <a href="#"><li>Histoire</li></a>
-                <hr />
-                <a href="#"><li>Application</li></a>
-                <hr />
-              </ul>
-            </div> */ -->
-            <div class="braid">
-              <h1>CHANEL</h1>
-            </div>
-            <div class="header2">
-              <div class="log">
-                <a href="#"> <img src="image/log.svg" alt="log"/></a>
-              </div>
-              <div class="shop">
-                <a href="#"> <img src="image/shop.svg" alt="shop"/></a>
-              </div>
-            </div>
-          </div>
-        </nav>
-      </body>
+    <header class="header">
+      <div class="header__content">
+        <div class="header__iconMenu">
+          <div class="header__menuBar"></div>
+          <div class="header__menuBar"></div>
+          <div class="header__menuBar"></div>
+        </div>
+        <div class="header__logo">
+          <img
+            class="header__logo--mobile"
+            src="assets/images/logo.png"
+            alt="Logo Chanel"
+          />
+          <img
+            class="header__logo--desktop"
+            src="assets/images/logo_desktop.png"
+            alt="Logo Chanel"
+          />
+        </div>
+        <div class="header__actions">
+          <img src="assets/images/logo_user.svg" alt="Logo user" />
+          <img src="assets/images/logo_shop.svg" alt="Logo shop" />
+        </div>
+        <div class="header__navDesktop">
+          <ul class="header__navDesktopItems">
+            <li>Notre produit</li>
+            <hr />
+            <li>Son Histoire</li>
+            <hr />
+            <li>Application</li>
+            <hr />
+          </ul>
+        </div>
+      </div>
+      <div class="header__navMobile">
+        <div class="header__infosMobile">
+          <span>MENU</span>
+          <img class="header__closeMenu" src="assets/images/close.svg" alt="" />
+        </div>
+        <ul>
+          <li>TRUC</li>
+          <li>MACHIN</li>
+          <li>BIDULE</li>
+        </ul>
+      </div>
     </header>
+    <main>
+      Mettre contenu ici
+    </main>
+    <footer>
+      Mettre footer ici
+    </footer>
   </body>
 </html>
