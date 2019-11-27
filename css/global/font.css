@@ -3,3 +3,7 @@
   src: url("couture-bld.otf") format("truetype"),
     url("couture-bldit.otf") format("truetype");
 }
+@font-face {
+  font-family: "Couture normal";
+  src: url("/font/couture/couture-normal.woff2") format("woff2");
+}

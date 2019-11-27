@@ -1,5 +1,5 @@
 body {
-  font-family: "Roboto";
+  font-family: "Couture normal", "Roboto";
 }
 main {
   padding-top: 90px;
@@ -34,6 +34,23 @@ main {
   color: white;
 }
 
+.akira h1 {
+  font-family: "Couture";
+  text-align: center;
+  margin-top: -40px;
+  font-size: 25px;
+}
+.akira img {
+  margin-left: 40px;
+}
+.akira2 img {
+  margin-top: 15px;
+  margin-left: 70px;
+}
+.akira2 p {
+  text-align: center;
+  justify-content: space-between;
+}
 @media (min-width: 1000px) {
   main {
     padding-top: 161px;
