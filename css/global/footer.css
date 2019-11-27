@@ -2,6 +2,9 @@
   background-color: black;
   color: white;
 }
+.footer_items {
+  padding: 20px;
+}
 .footer_content h6 {
   color: grey;
 }
@@ -11,8 +14,12 @@
 }
 .reseaux {
   display: flex;
-  justify-content: flex-end;
-  margin-right: 15px;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.reseaux img {
+  width: 20px;
 }
 .insta {
   margin-left: 20px;
