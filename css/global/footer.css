@@ -1,0 +1,20 @@
+.footer_content {
+  background-color: black;
+  color: white;
+}
+.footer_content h6 {
+  color: grey;
+}
+.parcourir a {
+  text-decoration: none;
+  color: white;
+}
+.reseaux {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 15px;
+}
+.insta {
+  margin-left: 20px;
+  margin-right: 20px;
+}
