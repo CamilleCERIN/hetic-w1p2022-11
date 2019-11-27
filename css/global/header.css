@@ -159,12 +159,28 @@
     border-right: none;
   }
 }
+
 .img_pant {
   margin-top: -30px;
 }
 .home__page {
   background-image: url("/assets/images/pantalon.png");
+  background-repeat: no-repeat;
+  height: 100vh;
 }
 .homepage_content {
   color: white;
+}
+
+@font-face {
+  font-family: "Couture";
+  src: url("couture-bld.otf") format("truetype"),
+    url("couture-bldit.otf") format("truetype");
+}
+
+h1 {
+  position: absolute;
+  top: 450px;
+  left: 55px;
+  font-family: "Couture";
 }

@@ -1,11 +1,11 @@
-body{
-    font-family: "Roboto";
+body {
+  font-family: "Roboto";
 }
-main{
-    padding-top: 90px;
+main {
+  padding-top: 90px;
 }
-@media(min-width: 1000px) {
-    main {
-        padding-top: 161px;
-    }
+@media (min-width: 1000px) {
+  main {
+    padding-top: 161px;
+  }
 }
