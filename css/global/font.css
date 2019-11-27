@@ -1,5 +1,5 @@
-html {
-  font-family: couture;
+@font-face {
+  font-family: "Couture";
+  src: url("couture-bld.otf") format("truetype"),
+    url("couture-bldit.otf") format("truetype");
 }
-
-/* @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap'); */

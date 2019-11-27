@@ -1,14 +1,9 @@
-@font-face {
-  font-family: "Couture";
-  src: url("couture-bld.otf") format("truetype"),
-    url("couture-bldit.otf") format("truetype");
-}
-
 body {
   font-family: "Roboto";
 }
 main {
   padding-top: 90px;
+  overflow-x: none;
 }
 @media (min-width: 1000px) {
   main {
