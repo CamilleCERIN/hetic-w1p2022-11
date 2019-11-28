@@ -7,9 +7,9 @@
       content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
     />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="../css/style.css" />
-    <script defer src="../js/main.js"></script>
-    <title>CHANEL</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script defer src="js/main.js"></script>
+    <title>CHANEL - Produit</title>
   </head>
   <body>
     <header class="header">
@@ -19,55 +19,55 @@
           <div class="header__menuBar"></div>
           <div class="header__menuBar"></div>
         </div>
-        <a href="../index.html" class="header__logo">
+        <a href="index.html" class="header__logo">
           <img
             class="header__logo--mobile"
-            src="/assets/images/logo.png"
+            src="assets/images/logo.png"
             alt="Logo Chanel"
           />
           <img
             class="header__logo--desktop"
-            src="/assets/images/logo_desktop.png"
+            src="assets/images/logo_desktop.png"
             alt="Logo Chanel"
           />
         </a>
         <div class="header__actions">
-          <a href="/pages/inscription.html"
-            ><img src="/assets/images/logo_user.svg" alt="Logo user"
+          <a href="inscription.html"
+            ><img src="assets/images/logo_user.svg" alt="Logo user"
           /></a>
-          <img src="/assets/images/logo_shop.svg" alt="Logo shop" />
+          <img src="assets/images/logo_shop.svg" alt="Logo shop" />
         </div>
         <div class="header__navDesktop">
           <ul class="header__navDesktopItems">
-            <li><a href="/pages/produit.html">Notre Produit</a></li>
-            <li><a href="/pages/histoire.html">Histoire</a></li>
+            <li class="header__navDesktopItems-active"><a href="produit.html">Notre Produit</a></li>
+            <li><a href="histoire.html">Histoire</a></li>
             <li><a href="#">Mon panier</a></li>
-            <li><a href="/pages/contact.html">Contact</a></li>
-            <li><a href="/pages/inscription.html">Se connecter</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="inscription.html">Se connecter</a></li>
           </ul>
         </div>
       </div>
       <div class="header__navMobile">
         <div class="header__infosMobile">
           <span>MENU</span>
-          <img class="header__closeMenu" src="assets/images/close.svg" alt="" />
+          <img class="header__closeMenu" src="assets/images/close.svg" alt="Icon croix" />
         </div>
         <ul>
           <li>
-            <a href="/pages/produit.html">Notre Produit</a>
+            <a href="produit.html">Notre Produit</a>
           </li>
           <li>
-            <a href="/pages/histoire.html">Histoire</a>
+            <a href="histoire.html">Histoire</a>
           </li>
           <li>
-            <a href="/pages/contact.html">Contact</a>
+            <a href="contact.html">Contact</a>
           </li>
         </ul>
       </div>
     </header>
     <main>
       <div class="produit_content">
-        <h1>Notre Produit</h1>
+        <h1 class="produit_title">Notre Produit</h1>
         <div class="produit_info">
           <div class="img_produit">
             <div class="first_img"></div>
@@ -85,9 +85,9 @@
                 <p>
                   Le 1er pantalon connecté de luxe à votre service pour vous
                   offrir une meilleure vie. Vous en avez marre de perdre votre
-                  temps à vous habiller car vous avez du mal à choisir ? Marre
+                  temps à vous habiller car vous avez du mal à choisir . Marre
                   d’un dressing mal rangé par manque de place ? Akira est fait
-                  pour vous et vous aidera à être vous même grâce à
+                  pour vous et vous aidera à être vous-même grâce à
                   l’application. Personnalisez la couleur, les motifs, les
                   visuels présents sur votre pantalon pour qu’il vous ressemble.
                 </p>
@@ -97,37 +97,45 @@
                   <a href="#">25 000€</a>
                 </div>
                 <div class="add_to_shop">
-                  <a href="paiement.html">Ajouté au panier</a>
+                  <a href="paiement.html">Ajouter au panier</a>
                 </div>
               </div>
             </div>
           </div>
         </div>
         <div class="tech">
-          <h1>Specification technique</h1>
-          <div class="tech_content">
-            <div class="tech_contenrt1">
-              <p>
-                Type de connexion : bluetooth <br />
-                <br />
-                Type de boîtier : récepteur <br />
-                <br />
-                Type de fibre : hydrophile <br />
-                <br />
-                Émetteur : smartphone <br />
-              </p>
-            </div>
-            <div class="tech_content2">
-              <p>
-                Stockage : nano sd 32go <br />
-                <br />
-                Leds : 160 rgb <br />
-                <br />
-                Type de fibre : hydrophile <br />
-                <br />
-                Émetteur : smartphone
-              </p>
-            </div>
+          <h1>Spécification technique</h1>
+          <div class="techno_content">
+            <ul class="techno_list">
+              <li>
+                <p class="techno_title">Type de connexion :</p>
+                <p class="techno_desc">bluetooth</p>
+              </li>
+              <li>
+                <p class="techno_title">Type de boîtier :</p>
+                <p class="techno_desc">récepteur</p>
+              </li>
+              <li>
+                <p class="techno_title">Type de fibre :</p>
+                <p class="techno_desc"></p>hydrophile</p>
+              </li>
+              <li>
+                <p class="techno_title">Émetteur :</p>
+                <p class="techno_desc"></p>smartphone</p>
+              </li>
+              <li>
+                <p class="techno_title">Stockage :</p>
+                <p class="techno_desc"></p>nano sd 32go</p>
+              </li>
+              <li>
+                <p class="techno_title">Leds :</p>
+                <p class="techno_desc"></p>160 rgb</p>
+              </li>
+              <li>
+                <p class="techno_title">Batterie :</p>
+                <p class="techno_desc"></p>208 000‬ mAh</p>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
@@ -162,15 +170,15 @@
         <hr />
         <div class="reseaux">
           <a class="facebook" href="https://www.facebook.com/ChanelFR/"
-            ><img src="../assets/images/facebook_icon.svg" alt="insta"
+            ><img src="assets/images/facebook_icon.svg" alt="facebook"
           /></a>
           <br />
           <a class="insta" href="https://instagram.com/chanelofficial"
-            ><img src="../assets/images/insta.png" alt="insta"
+            ><img src="assets/images/insta.png" alt="insta"
           /></a>
           <br />
           <a class="twitter" href="https://twitter.com/CHANEL"
-            ><img src="../assets/images/twitter.png" alt="twitter"
+            ><img src="assets/images/twitter.png" alt="twitter"
           /></a>
         </div>
       </div>

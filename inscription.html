@@ -7,11 +7,9 @@
       content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
     />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="../css/style.css" />
-    <script defer src="../js/main.js"></script>
-    <script defer src="../js/contact.js"></script>
-    
-    <title>CHANEL</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script defer src="js/main.js"></script>
+    <title>CHANEL - Inscription</title>
   </head>
   <body>
     <header class="header">
@@ -21,31 +19,33 @@
           <div class="header__menuBar"></div>
           <div class="header__menuBar"></div>
         </div>
-        <a href="../index.html" class="header__logo">
+        <a href="index.html" class="header__logo">
           <img
             class="header__logo--mobile"
-            src="/assets/images/logo.png"
+            src="assets/images/logo.png"
             alt="Logo Chanel"
           />
           <img
             class="header__logo--desktop"
-            src="/assets/images/logo_desktop.png"
+            src="assets/images/logo_desktop.png"
             alt="Logo Chanel"
           />
         </a>
         <div class="header__actions">
-          <a href="/pages/inscription.html"
-            ><img src="/assets/images/logo_user.svg" alt="Logo user"
+          <a href="inscription.html"
+            ><img src="assets/images/logo_user.svg" alt="Logo user"
           /></a>
-          <img src="/assets/images/logo_shop.svg" alt="Logo shop" />
+          <img src="assets/images/logo_shop.svg" alt="Logo shop" />
         </div>
         <div class="header__navDesktop">
           <ul class="header__navDesktopItems">
-            <li><a href="/pages/produit.html">Notre Produit</a></li>
-            <li><a href="/pages/histoire.html">Histoire</a></li>
+            <li><a href="produit.html">Notre Produit</a></li>
+            <li><a href="histoire.html">Histoire</a></li>
             <li><a href="#">Mon panier</a></li>
-            <li><a href="/pages/contact.html">Contact</a></li>
-            <li><a href="/pages/inscription.html">Se connecter</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li class="header__navDesktopItems-active">
+              <a href="inscription.html">Se connecter</a>
+            </li>
           </ul>
         </div>
       </div>
@@ -56,60 +56,55 @@
         </div>
         <ul>
           <li>
-            <a href="/pages/produit.html">Notre Produit</a>
+            <a href="produit.html">Notre Produit</a>
           </li>
           <li>
-            <a href="/pages/histoire.html">Histoire</a>
+            <a href="histoire.html">Histoire</a>
           </li>
           <li>
-            <a href="/pages/contact.html">Contact</a>
+            <a href="contact.html">Contact</a>
           </li>
         </ul>
       </div>
     </header>
     <main>
-        <form>
-            <h1>Contact</h1>
-            <div>
-              <section>
-                <label for="nom">Nom</label>
-              </section>
-              <textarea
-                id="nom"
-                name="message"
-                placeholder="Ex :Jean Dupont"
-                rows="1"
-                cols="35"
-              ></textarea>
-            </div>
-            <div>
-              <section>
-                <label for="Mail">Mail</label>
-              </section>
-              <input
-                type="email"
-                id="Mail"
-                name="mail"
-                placeholder="Votre mail"
-              ></input>
-            </div>
-            <div>
-              <section>
-                <label for="Message">Message</label>
-              </section>
-              <textarea
-                id="Message"
-                name="message"
-                placeholder="Votre message"
-                rows="10"
-                cols="35"
-              ></textarea>
-            </div>
-       
-            <button class="submit" type="button" id="submit">Valider ></button>
-          </form>
-          
-      
+      <h1 class="contact_title inscription_title">S'inscrire</h1>
+      <form class="inscription_content contact_form">
+        <div class="inscription_inputs">
+          <div class="contact_div">
+            <label for="nom">Prénom</label>
+            <input type="text" placeholder="Ex: Marie" />
+          </div>
+          <div class="contact_div">
+            <label for="nom">Nom</label>
+            <input type="text" placeholder="Ex: Dubois" />
+          </div>
+          <div class="contact_div">
+            <label for="nom">E-mail</label>
+            <input type="email" placeholder="Ex: mariedubois@gmail.com" />
+          </div>
+          <div class="contact_div">
+            <label for="nom">Mot de passe</label>
+            <input type="password" />
+          </div>
+        </div>
+        <div class="inscription_checkbox">
+          <input type="checkbox" />
+          <label
+            >J’ai lu et approuvé les conditions générales d’utilisation</label
+          >
+        </div>
+        <div class="inscription_checkbox">
+          <input type="checkbox" />
+          <label
+            >Je souhaite recevoir les nouveautées et les offres CHANEL par
+            mail</label
+          >
+        </div>
+        <button class="contact_submit" type="button" id="submit">
+          Nous rejoindre
+        </button>
+      </form>
     </main>
     <footer>
       <div class="footer_content">

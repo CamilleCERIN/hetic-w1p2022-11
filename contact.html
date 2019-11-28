@@ -9,7 +9,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="css/style.css" />
     <script defer src="js/main.js"></script>
-    <title>CHANEL - Accueil</title>
+    <title>CHANEL - Contact</title>
   </head>
   <body>
     <header class="header">
@@ -42,7 +42,9 @@
             <li><a href="produit.html">Notre Produit</a></li>
             <li><a href="histoire.html">Histoire</a></li>
             <li><a href="#">Mon panier</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li class="header__navDesktopItems-active">
+              <a href="contact.html">Contact</a>
+            </li>
             <li><a href="inscription.html">Se connecter</a></li>
           </ul>
         </div>
@@ -50,7 +52,11 @@
       <div class="header__navMobile">
         <div class="header__infosMobile">
           <span>MENU</span>
-          <img class="header__closeMenu" src="assets/images/close.svg" alt="" />
+          <img
+            class="header__closeMenu"
+            src="assets/images/close.svg"
+            alt="Icon croix"
+          />
         </div>
         <ul>
           <li>
@@ -65,59 +71,31 @@
         </ul>
       </div>
     </header>
-    <main>
-      <div class="home__page">
-        <div class="homepage_content">
-          <h1>AKIRA</h1>
-          <a href="produit.html">En savoir plus</a>
+    <main class="contact_content">
+      <h1 class="contact_title">Contact</h1>
+      <form class="contact_form">
+        <div class="contact_div">
+          <label for="nom">Nom</label>
+          <input type="text" placeholder="Ex: Marie Dubois" />
         </div>
-      </div>
-      <div class="article_content1">
-        <h1>AKIRA</h1>
-        <div class="akira">
-          <div class="akira_img">
-            <img src="/assets/images/akira_mobile.png" alt="akira" />
-          </div>
-          <p>
-            Notre nouveau produit Akira est vendu et utilisable grâce à une
-            application connectée qui permettra à l’acheteur de modifier la
-            couleur et la coupe à sa guise. Cette dernière lui permettra de
-            personnaliser et rechercher de nouveaux templates.
-          </p>
+        <div class="contact_div">
+          <label for="Mail">Mail</label>
+          <input type="email" placeholder="Ex: mariedubois@gmail.com" />
         </div>
-        <div class="akira2">
-          <div class="akira_img">
-            <img src="/assets/images/palette_couleur.png" alt="palette" />
-          </div>
-          <br />
-          <p>
-            Pour la couleur, nous avons opté pour un système bluetooth qui
-            permet de contrôler la couleur via l’application grâce à un boîtier
-            récepteur situé au niveau de la taille qui contrôlera les micro-leds
-            pour répondre à la demande de l’utilisateur. De plus notre produit
-            est résistant à l’eau, en effet il est composé d’une couche interne
-            et externe hydrophile. Notre marque est visionnaire et veut
-            fusionner mode et technologie. Notre équipement est prévu pour être
-            le plus léger et confortable possible tout en ayant un style digne
-            des maisons Chanel.
-          </p>
-          <br />
-
-          <br />
+        <div class="contact_div">
+          <label for="Message">Message</label>
+          <textarea
+            id="Message"
+            name="message"
+            placeholder="Votre message"
+            rows="10"
+            cols="35"
+          ></textarea>
         </div>
-        <div class="akira3">
-          <div class="akira_img">
-            <img src="/assets/images/pantalon_holo.png" alt="img" />
-          </div>
-          <p>
-            L’intégration de l’électronique à même le tissu permet d’offrir une
-            expérience nouvelle dans l’usage du vêtement. L’élargissement et le
-            serrage du tissu se feront grâce à de nouvelles fibres élastiques
-            connecter dotées de capteurs, qui se rétracte et s'élargit selon les
-            demandes de l’utilisateur via l’application.
-          </p>
-        </div>
-      </div>
+        <button class="contact_submit" type="button" id="submit">
+          Valider >
+        </button>
+      </form>
     </main>
     <footer>
       <div class="footer_content">
@@ -149,16 +127,16 @@
         <hr />
         <div class="reseaux">
           <a class="facebook" href="https://www.facebook.com/ChanelFR/"
-            ><img src="assets/images/facebook_icon.svg" alt="insta"
+            ><img src="assets/images/facebook_icon.svg" alt="facebook"
           /></a>
           <br />
           <a class="insta" href="https://instagram.com/chanelofficial"
-            ><img src="/assets/images/insta.png" alt="insta"
+            ><img src="assets/images/insta.png" alt="insta"
           /></a>
           <br />
-          <a class="twitter" href="https://twitter.com/CHANEL"
-            ><img src="/assets/images/twitter.png" alt="twitter"
-          /></a>
+          <a class="twitter" href="https://twitter.com/CHANEL">
+            <img src="assets/images/twitter.png" alt="twitter" />
+          </a>
         </div>
       </div>
     </footer>

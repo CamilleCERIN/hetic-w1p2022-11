@@ -1,135 +1,26 @@
-body {
-  font-family: "Couture normal";
-  overflow-x: hidden;
+.inscription_title {
+  margin-bottom: 30px;
 }
 
-/* Placeholders */
-::-webkit-input-placeholder {
-  opacity: 1;
-  -webkit-transition: opacity 0.18s;
-  transition: opacity 0.18s;
+.inscription_checkbox {
+  margin-bottom: 10px;
 }
 
-/* Chrome 56, Safari 9 */
-:-moz-placeholder {
-  opacity: 1;
-  -moz-transition: opacity 0.18s;
-  transition: opacity 0.18s;
+@media (min-width: 750px) {
+  .inscription_inputs {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+  }
+
+  .inscription_inputs .contact_div {
+    width: 48%;
+  }
 }
 
-/* FF 4-18 */
-::-moz-placeholder {
-  opacity: 1;
-  -moz-transition: opacity 0.18s;
-  transition: opacity 0.18s;
-}
-
-/* FF 19-51 */
-:-ms-input-placeholder {
-  opacity: 1;
-  -ms-transition: opacity 0.18s;
-  transition: opacity 0.18s;
-}
-
-/* IE 10+ */
-::placeholder {
-  opacity: 1;
-  transition: opacity 0.18s;
-}
-
-/* Modern Browsers */
-
-/* Focus */
-*:focus::-webkit-input-placeholder {
-  opacity: 0;
-}
-
-/* Chrome 56, Safari 9 */
-*:focus:-moz-placeholder {
-  opacity: 0;
-}
-
-/* FF 4-18 */
-*:focus::-moz-placeholder {
-  opacity: 0;
-}
-
-/* FF 19-50 */
-*:focus:-ms-input-placeholder {
-  opacity: 0;
-}
-
-/* IE 10+ */
-*:focus::placeholder {
-  opacity: 0;
-}
-
-/* Modern Browsers */
-
-.grid-container {
-  display: -ms-grid;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
-.grid-item {
-  /* border: 1px solid rgba(0, 0, 0, 0.8); */
-  margin: 20px;
-  font-size: 20px;
-  text-align: center;
-}
-
-input {
-  width: 50%;
-  border: none;
-  padding: 0px 20px;
-  outline: none;
-  font-size: 14px;
-}
-
-input[type="text"],
-input[type="email"],
-input[type="tel"],
-input[type="password"],
-input[type="date"] {
-  height: 54.8px;
-  /* margin: 0; */
-  margin-top: 25px;
-  border-bottom: 1.5px solid rgb(0, 0, 0);
-  font-family: "Couture normal";
-}
-
-input[type="submit"] {
-  background-color: black;
-  color: white;
-  font-size: 20px;
-  height: 50px;
-  width: 140px;
-  font-family: "Couture normal";
-  margin-left: 80%;
-  margin-top: 5%;
-}
-
-select {
-  height: 54.8px;
-  padding: 0px 20px;
-  border: none;
-  border-bottom: 1.5px solid rgb(0, 0, 0);
-  outline: none;
-  width: 56%;
-  margin-top: 25px;
-  font-family: "Couture normal";
-}
-
-h1 {
-  font-family: "Couture";
-  text-align: center;
-  font-size: 23px;
-  margin-top: 10px;
-}
-
-@media screen and (max-width: 1069px) {
-  .grid-container {
-    grid-template-columns: 1fr;
+@media (min-width: 1000px) {
+  .inscription_content {
+    height: calc(100vh - 355px);
   }
 }

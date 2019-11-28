@@ -5,6 +5,6 @@
 @import "global/footer.css";
 @import "pages/home.css";
 @import "pages/produit.css";
-@import "/css/pages/contact.css";
-@import "/css/pages/histoire.css";
-@import "/css/pages/inscription.css";
+@import "pages/contact.css";
+@import "pages/histoire.css";
+@import "pages/inscription.css";
