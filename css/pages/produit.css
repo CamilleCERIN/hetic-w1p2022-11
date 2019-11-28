@@ -49,6 +49,19 @@
 .tech p {
   padding: 20px;
 }
+.price {
+  font-size: 20px;
+  padding: 20px;
+}
+.price a {
+  text-decoration: none;
+  color: black;
+}
+
+.add_to_shop a {
+  text-decoration: none;
+  color: black;
+}
 @media (min-width: 750px) {
   .produit p {
     font-size: 20px;
@@ -97,6 +110,10 @@
     background-color: black;
     border: none;
     color: white;
+  }
+  .add_to_shop a {
+    text-decoration: none;
+    color: black;
   }
 }
 @media (min-width: 1000px) {
