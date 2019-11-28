@@ -57,7 +57,10 @@
   text-decoration: none;
   color: black;
 }
-
+.add_to_shop {
+  padding: 20px;
+  margin-top: 20px;
+}
 .add_to_shop a {
   text-decoration: none;
   color: black;
