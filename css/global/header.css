@@ -157,4 +157,8 @@
     text-transform: uppercase;
     font-weight: 700;
   }
+  .header__navDesktopItems a {
+    text-decoration: none;
+    color: black;
+  }
 }

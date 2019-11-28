@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <script defer src="../js/main.js"></script>
+    <title>CHANEL</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__content">
+        <div class="header__iconMenu">
+          <div class="header__menuBar"></div>
+          <div class="header__menuBar"></div>
+          <div class="header__menuBar"></div>
+        </div>
+        <a href="/index.html" class="header__logo">
+          <img
+            class="header__logo--mobile"
+            src="/assets/images/logo.png"
+            alt="Logo Chanel"
+          />
+          <img
+            class="header__logo--desktop"
+            src="/assets/images/logo_desktop.png"
+            alt="Logo Chanel"
+          />
+        </a>
+        <div class="header__actions">
+          <img src="/assets/images/logo_user.svg" alt="Logo user" />
+          <img src="/assets/images/logo_shop.svg" alt="Logo shop" />
+        </div>
+        <div class="header__navDesktop">
+          <ul class="header__navDesktopItems">
+            <li><a href="produit.html">Notre Produit</a></li>
+            <li><a href="histoire.html">Histoire</a></li>
+            <li><a href="#">Mon panier</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#">Se connecter</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="header__navMobile">
+        <div class="header__infosMobile">
+          <span>MENU</span>
+          <img class="header__closeMenu" src="assets/images/close.svg" alt="" />
+        </div>
+        <ul>
+          <li>Notre Produit</li>
+          <li>Histoire</li>
+          <li>Application</li>
+        </ul>
+      </div>
+    </header>
+    <main>
+                <h1>S'inscrire</h1>
+                <br><br><br>
+                <form>
+                    <div class="grid-container">
+            
+            
+                        <div class="grid-item">
+                            <label for="firstname" required>Prénom</label>
+                            <br>
+                            <input type="text" id="firstname" placeholder="MAYLIE ">
+                            </input>
+            
+                        </div>
+                        <div class="grid-item">
+                            <label for="lastname">Nom</label>
+                            <br>
+                            <input type="text" id="lastname" name="lastname" placeholder="MARTINI" required></input>
+                        </div>
+                        <div class="grid-item">
+                            <label for="address">Adresse</label>
+                            <br>
+                            <input type="text" id="address" value="" name="address" required></input>
+                        </div>
+                        <div class="grid-item">
+                            <label for="civility">Civilité</label>
+                            <br>
+                            <select id="civility" name="civility" required>
+                                <option value selected="selected">Sélectionner</option>
+                                <option value="M">M.</option>
+                                <option value="MME">Mme.</option>
+                                <option value="MLLE">Mlle.</option>
+                            </select>
+            
+                        </div>
+            
+                        <div class="grid-item">
+                            <label for="email">Adresse mail</label>
+                            <br>
+                            <input type="email" id="email" value="" placeholder="mayliemartini@gmail.com" name="email" pattern="[A-Za-z0-9](([_\.\-]?[a-zA-Z0-9]+)*)@([A-Za-z0-9]+)(([_\.\-]?[a-zA-Z0-9]+)*)\.([A-Za-z]{2,})
+                            " required>
+                        </div>
+                        <div class="grid-item">
+                            <label for="country">Pays</label>
+                            <br>
+                            <select id="country" value="" name="country" required>
+                                <option value="AF">Afghanistan</option>
+                                <option value="ZA">Afrique Du Sud</option>
+                                <option value="AL">Albanie</option>
+                                <option value="DZ">Algérie</option>
+                                <option value="DE">Allemagne</option>
+                                <option value="AD">Andorre</option>
+                                <option value="AO">Angola</option>
+                                <option value="AI">Anguilla</option>
+                                <option value="AQ">Antarctique</option>
+                                <option value="AG">Antigua Et Barbuda</option>
+                                <option value="SA">Arabie Saoudite</option>
+                                <option value="AR">Argentine</option>
+                                <option value="AM">Arménie</option>
+                                <option value="AW">Aruba</option>
+                                <option value="AU">Australie</option>
+                                <option value="AT">Autriche</option>
+                                <option value="AZ">Azerbaïdjan</option>
+                                <option value="BS">Bahamas</option>
+                                <option value="BH">Bahreïn</option>
+                                <option value="BD">Bangladesh</option>
+                                <option value="BB">Barbade</option>
+                                <option value="BY">Belarus</option>
+                                <option value="BE">Belgique</option>
+                                <option value="BZ">Belize</option>
+                                <option value="BJ">Benin</option>
+                                <option value="BM">Bermudes</option>
+                                <option value="BT">Bhoutan</option>
+                                <option value="BO">Bolivie</option>
+                                <option value="BQ">Bonaire, Saint-Eustache Et Saba</option>
+                                <option value="BA">Bosnie-Herzégovine</option>
+                                <option value="BW">Botswana</option>
+                                <option value="BV">Bouvet, Ile</option>
+                                <option value="BN">Brunei Darussalam</option>
+                                <option value="BR">Brésil</option>
+                                <option value="BG">Bulgarie</option>
+                                <option value="BI">Burundi</option>
+                                <option value="BF">Burkina Faso</option>
+                                <option value="CN">CHINE CONTINENTALE</option>
+                                <option value="KH">Cambodge</option>
+                                <option value="CM">Cameroun</option>
+                                <option value="CA">Canada</option>
+                                <option value="CV">Cap-Vert</option>
+                                <option value="KY">Caïmans, Iles</option>
+                                <option value="CF">Centrafricaine, République</option>
+                                <option value="CL">Chili</option>
+                                <option value="CX">Christmas, Ile</option>
+                                <option value="CY">Chypre</option>
+                                <option value="CC">Cocos (Keeling), Iles</option>
+                                <option value="CO">Colombie</option>
+                                <option value="KM">Comores</option>
+                                <option value="CG">Congo</option>
+                                <option value="CD">Congo, La République Démocratique Du</option>
+                                <option value="CK">Cook, Iles</option>
+                                <option value="KR">Corée, République De</option>
+                                <option value="CR">Costa Rica</option>
+                                <option value="CI">Cote D'Ivoire</option>
+                                <option value="HR">Croatie</option>
+                                <option value="CU">Cuba</option>
+                                <option value="CW">Curaçao</option>
+                                <option value="DK">Danemark</option>
+                                <option value="DJ">Djibouti</option>
+                                <option value="DO">Dominicaine, République</option>
+                                <option value="DM">Dominique</option>
+                                <option value="EG">Egypte</option>
+                                <option value="SV">El Salvador</option>
+                                <option value="AE">Emirats Arabes Unis</option>
+                                <option value="EC">Equateur</option>
+                                <option value="ER">Erythrée</option>
+                                <option value="ES">Espagne</option>
+                                <option value="EE">Estonie</option>
+                                <option value="US">Etats-Unis</option>
+                                <option value="ET">Ethiopie</option>
+                                <option value="FK">Falkland, Iles (Malvinas)</option>
+                                <option value="FJ">Fidji</option>
+                                <option value="FI">Finlande</option>
+                                <option value="FR" selected="selected">France</option>
+                                <option value="FO">Féroé, Iles</option>
+                                <option value="GA">Gabon</option>
+                                <option value="GM">Gambie</option>
+                                <option value="GS">Georgie Du Sud Et Les Iles Sandwich Du Sud</option>
+                                <option value="GH">Ghana</option>
+                                <option value="GI">Gibraltar</option>
+                                <option value="GD">Grenade</option>
+                                <option value="GL">Groenland</option>
+                                <option value="GR">Grèce</option>
+                                <option value="GP">Guadeloupe</option>
+                                <option value="GU">Guam</option>
+                                <option value="GT">Guatemala</option>
+                                <option value="GG">Guernesey</option>
+                                <option value="GN">Guinée</option>
+                                <option value="GQ">Guinée Equatoriale</option>
+                                <option value="GW">Guinée-Bissau</option>
+                                <option value="GY">Guyana</option>
+                                <option value="GF">Guyane Française</option>
+                                <option value="GE">Géorgie</option>
+                                <option value="HT">Haïti</option>
+                                <option value="HM">Heard, Ile Et McDonald, Iles</option>
+                                <option value="HN">Honduras</option>
+                                <option value="HK">Hong Kong R.A.S.</option>
+                                <option value="HU">Hongrie</option>
+                                <option value="IM">Ile De Man</option>
+                                <option value="UM">Iles Mineures Eloignées Des Etats-Unis</option>
+                                <option value="VG">Iles Vierges Britanniques</option>
+                                <option value="VI">Iles Vierges Des Etats-Unis</option>
+                                <option value="IN">Inde</option>
+                                <option value="ID">Indonésie</option>
+                                <option value="IR">Iran</option>
+                                <option value="IQ">Iraq</option>
+                                <option value="IE">Irlande</option>
+                                <option value="IS">Islande</option>
+                                <option value="IL">Israël</option>
+                                <option value="IT">Italie</option>
+                                <option value="JM">Jamaïque</option>
+                                <option value="JP">Japon</option>
+                                <option value="JE">Jersey</option>
+                                <option value="JO">Jordanie</option>
+                                <option value="KZ">Kazakhstan</option>
+                                <option value="KE">Kenya</option>
+                                <option value="KG">Kirghizistan</option>
+                                <option value="KI">Kiribati</option>
+                                <option value="KW">Koweït</option>
+                                <option value="LA">Laos</option>
+                                <option value="LS">Lesotho</option>
+                                <option value="LV">Lettonie</option>
+                                <option value="LB">Liban</option>
+                                <option value="LR">Liberia</option>
+                                <option value="LY">Libye</option>
+                                <option value="LI">Liechtenstein</option>
+                                <option value="LT">Lituanie</option>
+                                <option value="LU">Luxembourg</option>
+                                <option value="MO">Macao R.A.S.</option>
+                                <option value="MK">Macédoine</option>
+                                <option value="MG">Madagascar</option>
+                                <option value="MY">Malaisie</option>
+                                <option value="MW">Malawi</option>
+                                <option value="MV">Maldives</option>
+                                <option value="ML">Mali</option>
+                                <option value="MT">Malte</option>
+                                <option value="MP">Mariannes Du Nord, Iles</option>
+                                <option value="MA">Maroc</option>
+                                <option value="MH">Marshall, Iles</option>
+                                <option value="MQ">Martinique</option>
+                                <option value="MU">Maurice</option>
+                                <option value="MR">Mauritanie</option>
+                                <option value="YT">Mayotte</option>
+                                <option value="MX">Mexique</option>
+                                <option value="FM">Micronésie, Etats Fédérés De</option>
+                                <option value="MD">Moldova, République De</option>
+                                <option value="MC">Monaco</option>
+                                <option value="MN">Mongolie</option>
+                                <option value="MS">Montserrat</option>
+                                <option value="ME">Monténégro</option>
+                                <option value="MZ">Mozambique</option>
+                                <option value="NA">Namibie</option>
+                                <option value="NR">Nauru</option>
+                                <option value="NI">Nicaragua</option>
+                                <option value="NE">Niger</option>
+                                <option value="NG">Nigeria</option>
+                                <option value="NU">Niue</option>
+                                <option value="NF">Norfolk, Ile</option>
+                                <option value="NO">Norvège</option>
+                                <option value="NC">Nouvelle-Calédonie</option>
+                                <option value="NZ">Nouvelle-Zélande</option>
+                                <option value="NP">Népal</option>
+                                <option value="IO">Océan Indien, Territoire Britannique De L'</option>
+                                <option value="OM">Oman</option>
+                                <option value="UG">Ouganda</option>
+                                <option value="UZ">Ouzbékistan</option>
+                                <option value="PK">Pakistan</option>
+                                <option value="PW">Palaos</option>
+                                <option value="PS">Palestine</option>
+                                <option value="PA">Panama</option>
+                                <option value="PG">Papouasie-Nouvelle-Guinée</option>
+                                <option value="PY">Paraguay</option>
+                                <option value="NL">Pays-Bas</option>
+                                <option value="PH">Philippines</option>
+                                <option value="PN">Pitcairn</option>
+                                <option value="PL">Pologne</option>
+                                <option value="PF">Polynésie Française</option>
+                                <option value="PR">Porto Rico</option>
+                                <option value="PT">Portugal</option>
+                                <option value="PE">Pérou</option>
+                                <option value="QA">Qatar</option>
+                                <option value="TW">REGION DE TAIWAN</option>
+                                <option value="RO">Roumanie</option>
+                                <option value="GB">Royaume-Uni</option>
+                                <option value="RU">Russie</option>
+                                <option value="RW">Rwanda</option>
+                                <option value="RE">Réunion</option>
+                                <option value="EH">Sahara Occidental</option>
+                                <option value="BL">Saint-Barthélemy</option>
+                                <option value="KN">Saint-Kitts-Et-Nevis</option>
+                                <option value="SM">Saint-Marin</option>
+                                <option value="MF">Saint-Martin (Partie Française)</option>
+                                <option value="SX">Saint-Martin (Partie Néerlandaise)</option>
+                                <option value="PM">Saint-Pierre-et-Miquelon</option>
+                                <option value="VC">Saint-Vincent-Et-Les Grenadines</option>
+                                <option value="SH">Sainte-Hélène, Ascension Et Tristan Da Cunha</option>
+                                <option value="LC">Sainte-Lucie</option>
+                                <option value="SB">Salomon, Iles</option>
+                                <option value="WS">Samoa</option>
+                                <option value="AS">Samoa Américaines</option>
+                                <option value="ST">Sao Tome-Et-Principe</option>
+                                <option value="RS">Serbie</option>
+                                <option value="SC">Seychelles</option>
+                                <option value="SL">Sierra Leone</option>
+                                <option value="SG">Singapour</option>
+                                <option value="SK">Slovaquie</option>
+                                <option value="SI">Slovénie</option>
+                                <option value="SO">Somalie</option>
+                                <option value="SD">Soudan</option>
+                                <option value="SS">Soudan du Sud</option>
+                                <option value="LK">Sri Lanka</option>
+                                <option value="CH">Suisse</option>
+                                <option value="SR">Suriname</option>
+                                <option value="SE">Suède</option>
+                                <option value="SJ">Svalbard Et Ile Jan Mayen</option>
+                                <option value="SZ">Swaziland</option>
+                                <option value="SN">Sénégal</option>
+                                <option value="TJ">Tadjikistan</option>
+                                <option value="TZ">Tanzanie</option>
+                                <option value="TD">Tchad</option>
+                                <option value="CZ">Tchèque, République</option>
+                                <option value="TF">Terres Australes Françaises</option>
+                                <option value="TH">Thaïlande</option>
+                                <option value="TL">Timor-Leste</option>
+                                <option value="TG">Togo</option>
+                                <option value="TK">Tokelau</option>
+                                <option value="TO">Tonga</option>
+                                <option value="TT">Trinité-et-Tobago</option>
+                                <option value="TN">Tunisie</option>
+                                <option value="TM">Turkménistan</option>
+                                <option value="TC">Turques-et-Caïques, Iles</option>
+                                <option value="TR">Turquie</option>
+                                <option value="TV">Tuvalu</option>
+                                <option value="UA">Ukraine</option>
+                                <option value="UY">Uruguay</option>
+                                <option value="VU">Vanuatu</option>
+                                <option value="VA">Vatican, Etat De La Cite Du</option>
+                                <option value="VE">Venezuela</option>
+                                <option value="VN">Viet Nam</option>
+                                <option value="WF">Wallis Et Futuna</option>
+                                <option value="YE">Yémen</option>
+                                <option value="ZM">Zambie</option>
+                                <option value="ZW">Zimbabwe</option>
+                                <option value="AX">Åland, Iles</option>
+                            </select>
+                        </div>
+                        <div class="grid-item">
+                            <label for="city">Ville</label>
+                            <br>
+                            <input type="text" value="" id="city" name="city" maxlength="50" required>
+                        </div>
+                        <div class="grid-item">
+                            <label for="zipcode">Code postal</label>
+                            <br>
+                            <input type="text" value="" id="zipcode" name="zipcode" maxlength="6"
+                                pattern="([A-Z]+[A-Z]?\-)?[0-9]{1,2} ?[0-9]{3}" required>
+                        </div>
+                        <div class="grid-item">
+                            <label for="phone">Téléphone</label>
+                            <br>
+                            <input type="tel" value="" id="phone" name="phone" maxlength="10" placeholder="0610203040"
+                                pattern="(01|02|03|04|05|06|07|08|09)[ \.\-]?[0-9]{2}[ \.\-]?[0-9]{2}[ \.\-]?[0-9]{2}[ \.\-]?[0-9]{2}"
+                                required>
+                        </div>
+                        <div class="grid-item">
+                            <label for="date">Date de naissance</label>
+                            <br>
+                            <input type="date" value="" id="date" name="date" required>
+                        </div>
+                        <div class="grid-item">
+                            <label for="password">Mot de passe</label>
+                            <br>
+                            <input type="password" value="" id="password" name="password" required>
+                        </div>
+                        <div class="grid-item">
+                            <label for="password">Confirmez le mot de passe</label>
+                            <br>
+                            <input type="password" value="" id="password" name="password" required>
+                        </div>
+                    </div>
+            
+                    <input type="submit">
+            
+                </form>
+    </main>
+    <footer>
+      <div class="footer_content">
+        <div class="footer_items">
+          <div class="parcourir">
+            <h1>PARCOURIR CHANEL.COM</h1>
+            <br />
+            <h6>Notre Produit</h6>
+            <br />
+            <h6>Histoire</h6>
+            <br />
+            <h6>Application</h6>
+            <br />
+          </div>
+          <div class="service">
+            <h1>CONSEILS & SERVICES</h1>
+            <br />
+            <h6>Points de Ventes</h6>
+            <br />
+            <h6>Contact</h6>
+            <br />
+          </div>
+          <div class="LEGAL">
+            <h1>LEGAL</h1>
+            <br />
+            <h6>Mention légales</h6>
+          </div>
+        </div>
+        <hr />
+        <div class="reseaux">
+          <a class="facebook" href="https://www.facebook.com/ChanelFR/"
+            ><img src="../assets/images/facebook_icon.svg" alt="insta"
+          /></a>
+          <br />
+          <a class="insta" href="https://instagram.com/chanelofficial"
+            ><img src="../assets/images/insta.png" alt="insta"
+          /></a>
+          <br />
+          <a class="twitter" href="https://twitter.com/CHANEL"
+            ><img src="../assets/images/twitter.png" alt="twitter"
+          /></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

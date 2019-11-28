@@ -50,6 +50,14 @@
   padding: 20px;
 }
 @media (min-width: 750px) {
+  .produit p {
+    font-size: 20px;
+    padding: 20px;
+  }
+  .tech {
+    font-size: 20px;
+    padding: 20px;
+  }
   .produit_info {
     display: flex;
     padding: 0 50px;
@@ -69,6 +77,26 @@
   .small_img div {
     width: 100px;
     height: calc(100% / 3);
+  }
+  .produit_content1 h1 {
+    font-size: 30px;
+  }
+  .description {
+    padding: 20px;
+  }
+  .price {
+    font-size: 20px;
+    padding: 20px;
+    border: solid black;
+  }
+  .price a {
+    text-decoration: none;
+    color: black;
+  }
+  .price a:hover {
+    background-color: black;
+    border: none;
+    color: white;
   }
 }
 @media (min-width: 1000px) {
