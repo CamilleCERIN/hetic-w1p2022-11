@@ -1,0 +1,64 @@
+.img_histoire img {
+  width: 100%;
+}
+
+.img_histoire {
+  position: relative;
+  justify-content: space-around;
+}
+
+.histoire_akira {
+  color: white;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.3);
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+.histoire_akira_mobile p {
+  padding: 20px;
+}
+
+.img_fleche {
+  text-align: center;
+  margin-top: 15px;
+}
+.final {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.final img {
+  margin-right: 20px;
+}
+
+@media (min-width: 750px) {
+  .img_histoire img {
+    width: 100%;
+  }
+  .img_fleche {
+    padding: 20px;
+  }
+  .final img {
+    width: 70px;
+  }
+  .final p {
+    font-size: 30px;
+  }
+  .histoire_akira {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .histoire_akira p {
+    font-size: 18px;
+  }
+  .histoire_akira_mobile {
+    display: none;
+  }
+}

@@ -8,7 +8,7 @@
 }
 .first_img {
   height: 300px;
-  background: url(/assets/images/photo1.jpg) no-repeat center;
+  background: url(/assets/images/img_produit.png) no-repeat center;
   background-size: cover;
 }
 .small_img {
@@ -49,6 +49,11 @@
 .tech p {
   padding: 20px;
 }
+.tech_content {
+  display: flex;
+  font-size: 14px;
+  justify-content: space-around;
+}
 .price {
   font-size: 20px;
   padding: 20px;
@@ -59,7 +64,8 @@
 }
 .add_to_shop {
   padding: 20px;
-  margin-top: 20px;
+  margin-top: 10px;
+  border: solid black 1px;
 }
 .add_to_shop a {
   text-decoration: none;
@@ -103,7 +109,6 @@
   .price {
     font-size: 20px;
     padding: 20px;
-    border: solid black;
   }
   .price a {
     text-decoration: none;
