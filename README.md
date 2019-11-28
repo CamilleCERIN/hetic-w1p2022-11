@@ -1,5 +1,5 @@
 # hetic-w1p2022-11
-# https://chanel-pantx.netlify.com/
+# https://chanel.netlify.com/
 - Aymeric GILLET
 - Camy CÉRIN
 - Imene BEN RACHID
